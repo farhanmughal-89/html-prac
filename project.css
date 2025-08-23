@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #2ED3C5;
+    background-color: #2ED3C5;
+    height: 100px;
+    width: 100%;
+}
+header ul{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.border2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px  ;
+    border: 1px solid #2ED3C5;
+    border-radius: 79px;
+    background-color: #FFFFFF;
+    height: 60px;
+    width: 272px;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.child h1{
+   font-size: 32px;
+}
+.child p{
+    color: #666666;
+    font-size: 18px;
+}
+.parent input{
+    border: 2px solid #2ED3C50F;
+    height: 60px;
+    width: 335px;
+    border-radius: 47px;
+    padding-left: 18px;
+    position: relative;
+}
+.parent img{
+    position: absolute;
+    top:160px;
+    left: 350px;
+}
+.child-box button{
+    font-weight: 600;
+   text-align: center;
+    border: 1px solid #2ED3C5;
+    height: 60px;
+    width: 234px;
+    background-color: #2ED3C5;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 53px;
+}
+hr{
+  width: 1150px;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.parent-box{
+    margin-top: 20px;
+    border: 1px solid #08665e40;
+   
+    width: 600px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 1px 0px 2px grey;
+    position: relative;
+}
+
+.parent-box button{
+    margin: 20px;
+    border: 1px solid #2ED3C5;
+    background-color: #FFFFFF;
+    height: 26px;
+    width: 65px;
+    border-radius: 45.75px;
+    padding:  6px;
+    font-size: 9px;
+    color: #2ED3C5;
+    font-weight: 400;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.parent-box h2{
+margin-left: 20px;
+  font-size: 22px;
+}
+.parent-box p{
+    margin: 20px;
+}
+.parent-box span{
+   margin-left: 20px;
+    color: #2ED3C5;
+    font-size: 20px;
+    font-weight: 500;
+}
+.flex-box button{
+    border: 1px solid #2ED3C5;
+    background-color: #2ED3C5;
+    color: #FFFFFF;
+    height: 40px;
+    width: 121px;
+    text-align: center;
+    font-size: 14px;
+    gap: 10px;
+}
+.real-img{
+    display: flex;
+    height: 100px;
+}
+.real-img img{
+    position: absolute;
+    top: 40px;
+    left: 330px;
+    border-radius: 20px;
+    height: 170px;
+    width: 240px;
+}
